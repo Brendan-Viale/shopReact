@@ -1,0 +1,23 @@
+#subHeader{
+    box-shadow:0 0 3px #44b0ee;
+}
+
+#subHeader ul{
+    display:flex;
+    justify-content: space-around;
+    margin:0;
+    padding:5px 50px;
+}
+
+#subHeader li{
+    list-style:none;
+    text-transform: uppercase;
+    font-size:.9em;
+}
+
+#subHeader p{
+    margin:0;
+    padding:5px 50px;
+    text-align: center;
+    font-size:.9em;
+}

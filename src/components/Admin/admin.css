@@ -1,0 +1,26 @@
+#admin ul{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content: center;
+}
+
+#admin li{
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    margin-top:100px;
+}
+
+#admin p{
+    word-wrap: break-word;
+}
+
+.adminImg{
+    height:200px;
+    object-fit: contain;
+}
+
+.priceAdmin{
+    flex-grow:1;
+}

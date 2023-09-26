@@ -1,0 +1,58 @@
+header{
+    background-color:#1a1a1a;
+    padding: 10px 20px;
+    border-bottom:4px solid #44b0ee;
+}
+
+header nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .icon{
+    width:25px;
+    background-color:#44b0ee;
+    border-radius:50%;
+    margin: 0 10px;
+    padding: 10px;
+    transition:background-color .5s;
+}
+
+header a{
+    color:white;
+    font-size:1.3em;
+    text-transform: uppercase;
+}
+
+header .icon:hover{
+    background-color:white;
+}
+
+#logo{
+    width:80px;
+    margin-bottom:-30px;
+    background-color:#1a1a1a;
+    border-radius:50%;
+}
+
+.active{
+    color:#44b0ee;
+}
+
+#nbProducts{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    top: -5px;
+    right: 25px;
+    font-size: .6em;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}

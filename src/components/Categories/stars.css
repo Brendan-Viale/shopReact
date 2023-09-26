@@ -1,0 +1,28 @@
+.stars{
+    display:flex;
+   
+    padding:0;
+}
+
+.stars img{
+    width:30px;
+    height:30px;
+}
+
+.stars li{
+    position:relative;
+}
+
+.stars div{
+    overflow:hidden;
+    position:absolute;
+    left:0;
+}
+
+.star_grey{
+    
+}
+
+.star{
+    
+}

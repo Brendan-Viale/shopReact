@@ -1,0 +1,38 @@
+#root {
+  width:100%;
+}
+
+li{
+  list-style:none;
+}
+
+.pacman{
+  margin:50px auto;
+}
+
+.category{
+  display: inline-block;
+  width: fit-content;
+  padding: 3px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: .8em;
+  border-radius: 0 10px;
+  color:white;
+}
+
+.jewelery{
+  background: linear-gradient(315deg, #e7dabd 0%, #ab9d86 74%);
+}
+
+.electronics{
+  background: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+
+.mens_clothing{
+  background: linear-gradient(315deg, #bde7c2 0%, #86ab92 74%);
+}
+
+.womens_clothing{
+  background: linear-gradient(315deg, #e7bde7 0%, #ab86a8 74%);
+}
